@@ -1,0 +1,17 @@
+[project]
+name = "2025-06-02-ai-agents-using-smolagents"
+version = "0.1.0"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "duckduckgo-search>=8.0.2",
+    "fastmcp[cli]>=2.5.2",
+    "requests>=2.32.3",
+    "smolagents[gradio,mcp,openai]>=1.17.0",
+]
+
+[dependency-groups]
+dev = [
+    "mypy>=1.16.0",
+    "pylint>=3.3.7",
+]
